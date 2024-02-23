@@ -11,6 +11,7 @@ import card_icon_2 from "../src/assets/card-icon-2.png";
 import card_icon_3 from "../src/assets/card-icon-3.png";
 import user from "../src/assets/user-login-img.png";
 import complete_img from "../src/assets/complete-project.png";
+import pana from "../src/assets/pana.png";
 import tesla from "../src/assets/tesla.png";
 import marketing_img_1 from "../src/assets/marketing-img-1.png";
 import marketing_img_2 from "../src/assets/marketing-img-2.png";
@@ -108,7 +109,10 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="flex justify-evenly items-center bg-[#f2f7ff] py-20 my-20 px-6 md:px-0 flex-wrap gap-y-8 md:gap-y-0">
+        <div
+          data-aos="fade-up"
+          className="flex justify-evenly items-center bg-[#f2f7ff] py-20 my-20 px-6 md:px-0 flex-wrap gap-y-8 md:gap-y-0"
+        >
           <div>
             <h1 className="text-[#4d4d4d] text-4xl font-bold">
               Helping a local
@@ -127,10 +131,10 @@ function App() {
       </section>
       <section>
         <div className="flex justify-evenly items-center flex-wrap gap-y-10">
-          <div>
+          <div data-aos="fade-right">
             <img src={pana} alt="pana-img" className="mx-auto" />
           </div>
-          <div className="md:mx-0 mx-6">
+          <div data-aos="fade-left" className="md:mx-0 mx-6">
             <h1 className="text-[#4d4d4d] text-4xl font-semibold">
               How to design your site footer <br /> like we did
             </h1>
@@ -145,7 +149,10 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center mt-10 bg-[#f2f7ff] py-10 flex-wrap">
+        <div
+          data-aos="fade-up"
+          className="flex justify-center items-center mt-10 bg-[#f2f7ff] py-10 flex-wrap"
+        >
           <div>
             <img src={tesla} alt="tesla-img" className="md:mx-20" />
           </div>
@@ -187,21 +194,36 @@ function App() {
         </div>
       </section>
       <section className="mt-20">
-        <h1 className="text-[#4d4d4d] text-4xl font-semibold text-center mb-4">
+        <h1
+          data-aos="fade-right"
+          className="text-[#4d4d4d] text-4xl font-semibold text-center mb-4"
+        >
           Caring is the new marketing
         </h1>
-        <p className="text-[#4d4d4d] text-center md:px-0 px-6">
+        <p
+          data-aos="fade-right"
+          className="text-[#4d4d4d] text-center md:px-0 px-6"
+        >
           The Nexcent blog is the best place to read about the latest membership
           insights,
         </p>
-        <p className="text-[#4d4d4d] text-center md:px-0 px-6">
+        <p
+          data-aos="fade-right"
+          className="text-[#4d4d4d] text-center md:px-0 px-6"
+        >
           trends and more. See who's joining the community, read about how our
           community
         </p>
-        <p className="text-[#4d4d4d] text-center md:px-0 px-6">
+        <p
+          data-aos="fade-right"
+          className="text-[#4d4d4d] text-center md:px-0 px-6"
+        >
           are increasing their membership income and lot's more.​
         </p>
-        <div className="flex justify-center gap-x-10 items-center flex-wrap gap-y-32 mt-10">
+        <div
+          data-aos="fade-right"
+          className="flex justify-center gap-x-10 items-center flex-wrap gap-y-32 mt-10"
+        >
           <div className="relative">
             <div>
               <img src={marketing_img_1} alt="marketing_img_3" />
@@ -261,7 +283,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="bg-[#f2f7ff] mt-44 py-10">
+        <div data-aos="fade-top" className="bg-[#f2f7ff] mt-44 py-10">
           <h1 className="text-center font-semibold md:text-6xl text-5xl text-[#4d4d4d]">
             Pellentesque suscipit
           </h1>
