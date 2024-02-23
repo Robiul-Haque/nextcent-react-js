@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4caf4f;
+  border-radius: 10px;
+  transition: 1s all ease-in;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a6d2c;
+}
+
+.swiper-pagination-bullet {
+  background: #02e60a !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #4caf4f !important;
+}
