@@ -16,7 +16,7 @@ const LastSection = () => {
         fringilla libero eu.
       </h1>
       <div className="text-center mt-8">
-        <Button btnTitle={"Get a Demo"}></Button>
+        <Button btnTitle={"Get a Demo"} />
       </div>
     </div>
   );

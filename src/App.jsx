@@ -15,7 +15,7 @@ import LastSection from "./Components/LastSection.jsx";
 
 function App() {
   useEffect(() => {
-    AOS.init({ duration: "1200" });
+    AOS.init({ duration: "1400" });
   }, []);
 
   return (
