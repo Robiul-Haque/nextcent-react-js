@@ -10,6 +10,8 @@ import slider_img_2 from "../src/assets/slider-img-2.svg";
 import slider_img_3 from "../src/assets/slider-img-3.svg";
 import { TiThMenu } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
+import Button from "./Components/Button";
+import Slider from "./Components/Slider";
 
 export const header = () => {
   const [toggle, setToggle] = useState(true);
@@ -65,12 +67,13 @@ export const header = () => {
             </ul>
           </div>
           <div>
-            <button className="text-[#4caf4f] border border-[#4caf4f] py-3 px-8 me-4 rounded-md hover:bg-[#4caf4f] hover:text-white hover:transition hover:duration-600 hover:ease-in font-semibold">
-              Login
-            </button>
-            <button className="bg-[#4caf4f] text-white py-3 px-8 rounded-md font-semibold">
-              Sign up
-            </button>
+            <Button
+              btnTitle={"Login"}
+              btnClass={
+                "text-[#4caf4f] border border-[#4caf4f] py-3 px-8 me-4 rounded-md hover:bg-[#4caf4f] hover:text-white hover:transition hover:duration-600 hover:ease-in font-semibold"
+              }
+            />
+            <Button btnTitle={"Sign up"} />
           </div>
         </div>
 
@@ -143,70 +146,36 @@ export const header = () => {
         className="mySwiper md:mt-28 mt-12 px-6"
       >
         <SwiperSlide>
-          <div className="flex justify-evenly gap-x-12 items-center mb-28">
-            <div>
-              <h1 className="md:text-6xl text-4xl font-bold text-[#4d4d4d] md:mt-0 mt-12">
-                Lessons and insights
-              </h1>
-              <h1 className="md:text-6xl text-4xl font-bold text-[#4caf4f] md:mt-2">
-                from 8 years
-              </h1>
-              <p className="my-4 text-[#4d4d4d]">
-                Where to grow your business as a photographer: site or social
-                media?
-              </p>
-              <button className="bg-[#4caf4f] text-white py-3 px-8 rounded-md">
-                Register
-              </button>
-            </div>
-            <div>
-              <img src={slider_img_1} alt="slider-img-1" />
-            </div>
-          </div>
+          <Slider
+            firstHading={"Lessons and insights"}
+            secondHeading={"from 8 years"}
+            text={`Where to grow your business as a photographer: site or social media?`}
+            btnTitle={"Register"}
+            img={slider_img_1}
+            altText={"slider-img-1"}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex justify-evenly gap-x-12 items-center mb-28">
-            <div>
-              <h1 className="md:text-6xl text-4xl font-bold text-[#4d4d4d] mt-20">
-                Grow bussiness fast
-              </h1>
-              <h1 className="md:text-6xl text-4xl font-bold text-[#4caf4f] md:mt-2">
-                For free of cost
-              </h1>
-              <p className="my-4 text-[#4d4d4d]">
-                Where to grow your business as a photographer: site or social
-                media?
-              </p>
-              <button className="bg-[#4caf4f] text-white py-3 px-8 rounded-md">
-                Register
-              </button>
-            </div>
-            <div>
-              <img src={slider_img_2} alt="slider-img-2" className="w-96" />
-            </div>
-          </div>
+          <Slider
+            firstHading={"Grow bussiness fast"}
+            secondHeading={"For free of cost"}
+            text={`Where to grow your business as a photographer: site or social
+            media?`}
+            btnTitle={"Register"}
+            img={slider_img_2}
+            altText={"slider-img-2"}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex justify-evenly gap-x-12 items-center mb-28">
-            <div>
-              <h1 className="md:text-6xl text-4xl font-bold text-[#4d4d4d] mt-16">
-                Bussiness with
-              </h1>
-              <h1 className="md:text-6xl text-4xl font-bold text-[#4caf4f] md:mt-2">
-                Mobile app
-              </h1>
-              <p className="my-4 text-[#4d4d4d]">
-                Where to grow your business as a photographer: site or social
-                media?
-              </p>
-              <button className="bg-[#4caf4f] text-white py-3 px-8 rounded-md">
-                Register
-              </button>
-            </div>
-            <div>
-              <img src={slider_img_3} alt="slider-img-3" className="w-96" />
-            </div>
-          </div>
+          <Slider
+            firstHading={"Controll you bussiness"}
+            secondHeading={"With mobile app"}
+            text={`Where to grow your business as a photographer: site or social
+            media?`}
+            btnTitle={"Register"}
+            img={slider_img_3}
+            altText={"slider-img-3"}
+          />
         </SwiperSlide>
       </Swiper>
     </header>
