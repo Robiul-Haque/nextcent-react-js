@@ -7,7 +7,7 @@ const ReacheClient = () => {
         data-aos="fade-up"
         className="flex justify-evenly items-center bg-[#f2f7ff] py-20 my-20 px-6 md:px-0 flex-wrap gap-y-8 md:gap-y-0"
       >
-        <div>
+        <div className="text-center md:text-left">
           <h1 className="text-[#4d4d4d] text-4xl font-bold">Helping a local</h1>
           <h1 className="text-[#4caf4f] text-4xl font-bold my-2">
             business reinvent itself

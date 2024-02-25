@@ -7,7 +7,7 @@ const ThreeYearsSection = () => {
       <div data-aos="fade-right">
         <img src={user} alt="user" className="mx-auto" />
       </div>
-      <div data-aos="fade-left">
+      <div data-aos="fade-left" className="text-center px-6 md:px-0 md:text-left">
         <h1 className="text-4xl font-semibold text-[#4d4d4d]">
           The unseen of spending three <br /> years at Pixelgrade
         </h1>

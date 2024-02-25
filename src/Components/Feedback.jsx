@@ -17,7 +17,7 @@ const Feedback = () => {
           <img src={tesla} alt="tesla-img" className="md:mx-20" />
         </div>
         <div>
-          <p className="text-[#4d4d4d] w-96 mb-6 md:mx-0 mx-auto ">
+          <p className="text-[#4d4d4d] w-96 mb-6 md:mx-0 mx-auto text-center md:text-left">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             enim metus. Vivamus sed libero ornare, tristique quam in, gravida
