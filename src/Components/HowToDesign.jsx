@@ -12,7 +12,7 @@ const HowToDesign = () => {
           <h1 className="text-[#4d4d4d] text-4xl font-semibold">
             How to design your site footer <br /> like we did
           </h1>
-          <p className="w-96 my-5">
+          <p className="md:w-96 w-none my-5">
             Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
             augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
             elit erat a magna. Donec quis erat at libero ultrices mollis. In hac

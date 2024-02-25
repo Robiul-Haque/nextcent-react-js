@@ -103,7 +103,7 @@ function footer() {
               />
               <button
                 type="submit"
-                className="inline-block absolute top-1 md:right-[10px] right-[85px]"
+                className="inline-block absolute top-1 md:right-[10px] right-[50px]"
                 title="Send"
               >
                 <img

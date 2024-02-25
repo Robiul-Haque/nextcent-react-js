@@ -11,13 +11,13 @@ const Feedback = () => {
     <>
       <div
         data-aos="fade-up"
-        className="flex justify-center items-center mt-10 bg-[#f2f7ff] py-10 flex-wrap"
+        className="flex justify-center items-center mt-10 bg-[#f2f7ff] py-10 flex-wrap px-6 md:px-0"
       >
         <div>
           <img src={tesla} alt="tesla-img" className="md:mx-20" />
         </div>
         <div>
-          <p className="text-[#4d4d4d] w-96 mb-6 md:mx-0 mx-auto text-center md:text-left">
+          <p className="text-[#4d4d4d] md:w-96 w-none mb-6 md:mx-0 mx-auto text-center md:text-left">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             enim metus. Vivamus sed libero ornare, tristique quam in, gravida

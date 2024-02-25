@@ -5,13 +5,13 @@ const LastSection = () => {
     <div className="bg-[#f2f7ff] mt-44 py-10">
       <h1
         data-aos="fade-top"
-        className="text-center font-semibold md:text-6xl text-5xl text-[#4d4d4d]"
+        className="text-center font-semibold md:text-4xl text-4xl text-[#4d4d4d]"
       >
         Pellentesque suscipit
       </h1>
       <h1
         data-aos="fade-top"
-        className="text-center font-semibold md:text-6xl text-5xl text-[#4d4d4d] mt-3"
+        className="text-center font-semibold md:text-4xl text-4xl text-[#4d4d4d] mt-3"
       >
         fringilla libero eu.
       </h1>
